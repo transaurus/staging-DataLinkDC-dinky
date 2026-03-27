@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocs=globalThis.webpackChunkdocs||[]).push([[7472],{55513(e){e.exports=JSON.parse('{"title":"\u535a\u5ba2\u5217\u8868","items":[{"title":"Dinky \u6269\u5c55 Kudu \u5b9e\u8df5\u5206\u4eab","permalink":"/blog/kudu-extend","unlisted":false,"date":"2022-05-12T00:00:00.000Z"}]}')}}]);

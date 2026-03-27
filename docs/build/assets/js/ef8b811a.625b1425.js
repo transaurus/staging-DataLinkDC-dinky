@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocs=globalThis.webpackChunkdocs||[]).push([[8947],{56600(i){i.exports=JSON.parse('{"authors":[{"name":"aiwenmo","title":"Dinky \u9879\u76ee\u53d1\u8d77\u4eba","url":"https://github.com/DataLinkDC/dlink","imageURL":"http://pic.dinky.org.cn/dinky/docs/dinky_logo.svg","key":"aiwenmo","page":null,"count":0}]}')}}]);
