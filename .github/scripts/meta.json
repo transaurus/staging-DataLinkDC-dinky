@@ -6,5 +6,6 @@
   "translateCommand": "pnpm run write-translations",
   "buildCommand": "pnpm run build",
   "buildOutput": "build",
-  "packageManager": "pnpm"
+  "packageManager": "pnpm",
+  "nodeVersion": "20"
 }
