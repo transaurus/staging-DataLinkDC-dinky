@@ -30,8 +30,8 @@ const config = {
     baseUrl: '/', // 站点的相对路径 可将其视为是主机名后的路径 | Path to your website
     staticDirectories: ['static/img', 'blog/blog_img'], // 静态文件目录 | Path to static files
     // trailingSlash: true, //此选项允许您自定义 URL/链接后是否添加结尾斜杠 | Whether to append a trailing slash to the URL when rendering URLs
-    onBrokenLinks: 'ignore', // Docusaurus 在检测到无效链接时的行为 |  Docusaurus behavior when invalid links are detected    -> 类型：'ignore' | 'log' | 'warn' | 'error' | 'throw' |
-    onBrokenMarkdownLinks: 'warn', // Docusaurus 在检测到无效 Markdown 链接时的行为 | Docusaurus behavior when detecting invalid markdown links  -> 类型：'ignore' | 'log' | 'warn' | 'error' | 'throw'
+    onBrokenLinks: 'warn' |
+    onBrokenMarkdownLinks: "warn"
     onDuplicateRoutes: 'warn', // Docusaurus 在检测到重复的路由时的行为 |  Behavior of docusaurus when duplicate routes are detected  ->  类型：'ignore' | 'log' | 'warn' | 'error' | 'throw'
     favicon: 'dinky_logo.svg', // 左侧logo  | left logo
     organizationName: 'DataLinkDC', // 拥有此源的 GitHub 用户或组织。 用于部署命令。 |  The GitHub user or organization that owns this source. Command for deployment.
@@ -46,7 +46,7 @@ const config = {
     },
     i18n: {
         defaultLocale: 'zh',
-        locales: ['zh'],
+        locales: ["en", "zh-Hans"],
         path: "i18n",
         localeConfigs: {
             'zh': {
